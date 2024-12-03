@@ -17,7 +17,7 @@
     <section>
         <div class="form-box">
             <div class="fron-value">
-                <form action="">
+                <form action="reg.php" method="post">
                     <h2>Register</h2>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
@@ -34,7 +34,30 @@
                         <input type="password" required>
                         <label for="">Password</label>
                     </div>
-                    <button>Зарегистрироваться</button>
+                    <button type="sumbit">Зарегистрироваться</button>
+                    <div class="register">
+                        <p>Если есть аккаунт &emsp;&emsp;&emsp; <a href="">ТЫК</a></p>
+                    </div>
+                </form>
+                <form action="login.php">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Запомнить &emsp;&emsp;&emsp;&emsp; <a href="#">Забыл пароль</a></label>
+                    </div>
+                    <button>Зайти</button>
+                    <div class="register">
+                        <p>Если нет аккаунта &emsp;&emsp;&emsp; <a href="">ТЫК</a></p>
+                    </div>
                 </form>
             </div>
         </div>
